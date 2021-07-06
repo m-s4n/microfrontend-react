@@ -53,6 +53,8 @@ const useStyles = makeStyles((theme) => ({
 export default function SignIn({ onSignIn }) {
   const classes = useStyles();
 
+  console.log('auth micro frontend - signin component rendered');
+
   return (
     <Container component="main" maxWidth="xs">
       <div className={classes.paper}>
